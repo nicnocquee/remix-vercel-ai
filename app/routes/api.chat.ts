@@ -1,4 +1,4 @@
-import type { ActionFunctionArgs } from "@remix-run/node";
+import type { ActionFunctionArgs } from "@vercel/remix";
 import { OpenAIStream, StreamingTextResponse } from "ai";
 import OpenAI from "openai";
 

@@ -1,6 +1,6 @@
-# Welcome to Remix!
+# About
 
-- [Remix Docs](https://remix.run/docs)
+This is an example of using [Vercel AI SDK](https://sdk.vercel.ai/docs) with [Remix](https://remix.run/docs).
 
 ## Development
 

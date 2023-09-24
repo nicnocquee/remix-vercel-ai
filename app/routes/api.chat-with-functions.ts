@@ -11,8 +11,8 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || "",
 });
 
-// IMPORTANT! Set the runtime to edge
-export const runtime = "edge";
+// IMPORTANT! Set the runtime to edge when deployed to vercel
+export const config = { runtime: "edge" };
 
 const functions: CompletionCreateParams.Function[] = [
   {

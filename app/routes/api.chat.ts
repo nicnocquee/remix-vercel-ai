@@ -2,6 +2,9 @@ import type { ActionFunctionArgs } from "@remix-run/node";
 import { OpenAIStream, StreamingTextResponse } from "ai";
 import OpenAI from "openai";
 
+// IMPORTANT! Set the runtime to edge when deployed to vercel
+export const config = { runtime: "edge" };
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
